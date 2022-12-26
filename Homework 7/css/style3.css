@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: bisque;
+}
+.conteyner{
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 1000px;
+    margin:150px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imges{
+    
+}
+.card{
+    width: 50%;
+    margin: 100px;
+    
+}
+h1{
+    margin-bottom: 10px;
+    width: 229px;
+    height: 43px;
+    font-weight: 500;
+font-size: 36px;
+line-height: 43px;
+color: #363940;
+
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 410px;
+    height: 44px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #95A1BB;
+
+}
+select{
+    outline: none;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 460px;
+    height: 46px;
+    padding: 12px 15px;
+    border: 1px solid #CAD1E1;
+border-radius: 4px;
+}
+form input{
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    width: 220px;
+    height: 46px;
+    border: 1px solid #CAD1E1;
+border-radius: 4px;
+}
+textarea{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 460px;
+    height:122px;
+}
+.page{
+    display: flex;
+    gap: 20px;
+}
+button{
+    border: none;
+    cursor: pointer;
+    width: 160px;
+    height: 46px;
+    background: #6E38F7;
+border-radius: 4px;
+   text-align: center;
+   color: white;
+}
+.stop{
+    text-align: right;
+    margin-left: 50px;
+}
